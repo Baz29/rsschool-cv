@@ -3,3 +3,99 @@
   margin: 0;
   padding: 0;
 }
+
+header {
+  min-height: 50px;
+  background-color: rgb(214, 39, 39);
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+
+}
+
+.container_header {
+  background-color: #adacac;
+  padding: 20px 0;
+}
+
+.nav_items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav_items {
+  list-style-type: none;
+}
+
+.two_sides {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_side_item {
+  width: 300px;
+  background: #ededed;
+}
+
+.right_side_item {
+  width: 700px;
+  background-color: rgb(43, 214, 226);
+}
+
+.image {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+}
+
+.contacts {
+
+  min-height: 100px;
+
+
+
+}
+
+.contacts_item {
+  text-align: center;
+}
+
+
+h2 {
+  color: yellow;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #adacac;
+  text-align: center;
+
+}
+
+.name {
+  height: 214px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+footer {
+  background-color: red;
+}
