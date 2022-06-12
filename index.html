@@ -10,56 +10,52 @@
 </head>
 
 <body>
-  <header>
-    <div class="container container_header">
-      <nav>
-        <ul class="nav_items">
-          <li> <a href="#">About me</a> </li>
-          <li> <a href="#">Skills</a> </li>
-          <li> <a href="#a1">Contacts</a> </li>
-          <li> <a href="#">Projects</a> </li>
-          <li> <a href="#">Code</a> </li>
-          <li> <a href="#">Education</a> </li>
-        </ul>
-      </nav>
-    </div>
+
+  <header class="container container_header">
+    <nav>
+      <ul class="nav_items">
+        <li> <a href="#about_link" class="nav_li">About me</a> </li>
+        <li> <a href="#skills_link" class="nav_li">Skills</a> </li>
+        <li> <a href="#contacts_link" class="nav_li">Contacts</a> </li>
+        <li> <a href="#projects_link" class="nav_li">Projects</a> </li>
+        <li> <a href="#code_link" class="nav_li">Code</a> </li>
+        <li> <a href="#education_link" class="nav_li">Education</a> </li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <div class="container container_main">
+    <div class="container">
       <div class="two_sides">
         <div class="left_side_item">
-          <section class="image">
-            <div><img src="IMG1.jpg" alt="my_photo"></div>
+          <section>
+            <img src="IMG1.jpg" alt="my_photo" class="photo">
           </section>
-          <section class="contacts" id="a1">
+          <section id="contacts_link">
             <h2>Contacts</h2>
             <p class="contacts_item">Discord: Baz(@baz29)</p>
             <p class="contacts_item">Phone: +375291404328</p>
             <p class="contacts_item">E-mai: sergey.remov@gmail.com</p>
           </section>
-          <section class="education">
+          <section class="education" id="education_link">
             <h2>Education</h2>
-            <p>2001-2006<br> Gomel State Technical University</p>
-            <br>
-            <p>2006-2009<br> Gomel Trade and Economic University</p>
-            <br>
+            <p class="p_education">2001-2006<br> Gomel State Technical University</p>
+            <p class="p_education">2006-2009<br> Gomel Trade and Economic University</p>
           </section>
-
         </div>
+
         <div class="right_side_item">
           <section class="name">
             <h1>Sergey Remov</h1>
-            <br>
             <p>Beginner FE engenier</p>
           </section>
-          <section class="about_me">
+          <section id="about_link">
             <h2>About me</h2>
-            <div class="aboutMe">I like to learn something new, to engage in self-development. My hobbies are
+            <div class="about_me">I like to learn something new, to engage in self-development. My hobbies are
               technology, sports, healthy lifestyle, cinema and music. I have loved information technology since
               childhood. Now I want to become a front-end developer.</div>
           </section>
-          <section>
+          <section id="skills_link">
             <h2>Skills</h2>
             <ul class="ulSkills">
               <li>html/css</li>
@@ -67,15 +63,14 @@
               <li>English - B2</li>
             </ul>
           </section>
-          <section>
+          <section id="code_link">
             <h2>Code example</h2>
             <p>Return the type of the sum of the two arguments</p>
-            <br>
             <pre> function typeOfSum(a, b) {
   return typeof (a + b);
 }</pre>
           </section>
-          <section>
+          <section id="projects_link">
             <h2>My projects</h2>
             <a href="https://baz29.github.io/rsschool-cv/cv.md" target="_blank">My first project</a>
           </section>
@@ -88,13 +83,14 @@
     <div class="container">
       <section class="footer">
         <div>
-          <a href="https://github.com/Baz29/" target="_blank">My GitHyb Page</a>
+          <a href="https://github.com/Baz29/" target="_blank" class="footer_l">My GitHub Page</a>
         </div>
         <div>2022</div>
-        <div> <a href="https://rs.school/js/" target="_blank">RS School</a> </div>
+        <div> <a href="https://rs.school/js/" target="_blank" class="footer_l">RS School</a> </div>
       </section>
     </div>
   </footer>
 
-
 </body>
+
+</html>
