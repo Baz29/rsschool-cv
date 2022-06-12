@@ -5,14 +5,96 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
   <link rel="stylesheet" href="style.css">
+  <title>Sergey Remov CV</title>
 </head>
 
 <body>
-  <p>Hello world! </p>
-  <img src="img.jpg" alt="" width=32>
-  <div title="asv;alsdmnl;sakd">1</div>
-</body>
+  <header>
+    <div class="container container_header">
+      <nav>
+        <ul class="nav_items">
+          <li> <a href="#">About me</a> </li>
+          <li> <a href="#">Skills</a> </li>
+          <li> <a href="#a1">Contacts</a> </li>
+          <li> <a href="#">Projects</a> </li>
+          <li> <a href="#">Code</a> </li>
+          <li> <a href="#">Education</a> </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-</html>
+  <main>
+    <div class="container container_main">
+      <div class="two_sides">
+        <div class="left_side_item">
+          <section class="image">
+            <div><img src="IMG1.jpg" alt="my_photo"></div>
+          </section>
+          <section class="contacts" id="a1">
+            <h2>Contacts</h2>
+            <p class="contacts_item">Discord: Baz(@baz29)</p>
+            <p class="contacts_item">Phone: +375291404328</p>
+            <p class="contacts_item">E-mai: sergey.remov@gmail.com</p>
+          </section>
+          <section class="education">
+            <h2>Education</h2>
+            <p>2001-2006<br> Gomel State Technical University</p>
+            <br>
+            <p>2006-2009<br> Gomel Trade and Economic University</p>
+            <br>
+          </section>
+
+        </div>
+        <div class="right_side_item">
+          <section class="name">
+            <h1>Sergey Remov</h1>
+            <br>
+            <p>Beginner FE engenier</p>
+          </section>
+          <section class="about_me">
+            <h2>About me</h2>
+            <div class="aboutMe">I like to learn something new, to engage in self-development. My hobbies are
+              technology, sports, healthy lifestyle, cinema and music. I have loved information technology since
+              childhood. Now I want to become a front-end developer.</div>
+          </section>
+          <section>
+            <h2>Skills</h2>
+            <ul class="ulSkills">
+              <li>html/css</li>
+              <li>JS (novice)</li>
+              <li>English - B2</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Code example</h2>
+            <p>Return the type of the sum of the two arguments</p>
+            <br>
+            <pre> function typeOfSum(a, b) {
+  return typeof (a + b);
+}</pre>
+          </section>
+          <section>
+            <h2>My projects</h2>
+            <a href="https://baz29.github.io/rsschool-cv/cv.md" target="_blank">My first project</a>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <section class="footer">
+        <div>
+          <a href="https://github.com/Baz29/" target="_blank">My GitHyb Page</a>
+        </div>
+        <div>2022</div>
+        <div> <a href="https://rs.school/js/" target="_blank">RS School</a> </div>
+      </section>
+    </div>
+  </footer>
+
+
+</body>
