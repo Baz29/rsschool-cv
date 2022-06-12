@@ -96,6 +96,15 @@ h2 {
   padding-top: 90px;
 }
 
-footer {
-  background-color: red;
+.ulSkills {
+  padding-left: 30px;
+}
+
+
+
+.footer {
+  background-color: rgb(54, 54, 54);
+  display: flex;
+  justify-content: space-around;
+  color: white
 }
