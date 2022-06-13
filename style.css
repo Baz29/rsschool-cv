@@ -1,5 +1,88 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container_header {
+  background-color: #272727;
+  padding: 1px 0;
+}
+
+.nav_items {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.nav_li {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.two_sides {
+  display: flex;
+}
+
+.left_side_item {
+  width: 300px;
+  background: #ededed;
+}
+
+.right_side_item {
+  width: 700px;
+  background-color: #ededed;
+}
+
+.photo {
+  width: 300px;
+  height: 300px;
+}
+
+h2 {
+  color: yellow;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #adacac;
+  text-align: center;
+}
+
+.contacts_item {
+  padding-left: 30px;
+}
+
+.p_education {
+  padding-left: 30px;
+}
+
+.name {
+  height: 214px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.about_me {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.ulSkills {
+  padding-left: 50px;
+}
+
+.footer {
+  background-color: rgb(54, 54, 54);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  min-height: 40px;
+  text-decoration: none;
+
+}
+
+.footer_l {
+  text-decoration: none;
+  color: white;
 }

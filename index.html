@@ -1,9 +1,101 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Домашнее задание</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sergey Remov CV</title>
 </head>
+
+<body>
+
+  <header class="container container_header">
+    <nav>
+      <ul class="nav_items">
+        <li> <a href="#about_link" class="nav_li">About me</a> </li>
+        <li> <a href="#skills_link" class="nav_li">Skills</a> </li>
+        <li> <a href="#contacts_link" class="nav_li">Contacts</a> </li>
+        <li> <a href="#projects_link" class="nav_li">Projects</a> </li>
+        <li> <a href="#code_link" class="nav_li">Code</a> </li>
+        <li> <a href="#education_link" class="nav_li">Education</a> </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="two_sides">
+        <div class="left_side_item">
+          <div>
+            <img src="IMG1.jpg" alt="my_photo" class="photo">
+          </div>
+          <section id="contacts_link">
+            <h2>Contacts</h2>
+            <ul>
+              <li>Discord: Baz(@baz29)</li>
+              <li>Phone: +375291404328</li>
+              <li>E-mai: sergey.remov@gmail.com</li>
+            </ul>
+          </section>
+          <section class="education" id="education_link">
+            <h2>Education</h2>
+            <p class="p_education">2001-2006<br> Gomel State Technical University</p>
+            <p class="p_education">2006-2009<br> Gomel Trade and Economic University</p>
+          </section>
+        </div>
+
+        <div class="right_side_item">
+          <section class="name">
+            <h1>Sergey Remov</h1>
+            <p>Beginner FE engenier</p>
+          </section>
+          <section id="about_link">
+            <h2>About me</h2>
+            <div class="about_me">I like to learn something new, to engage in self-development. My hobbies are
+              technology, sports, healthy lifestyle, cinema and music. I have loved information technology since
+              childhood. Now I want to become a front-end developer.</div>
+          </section>
+          <section id="skills_link">
+            <h2>Skills</h2>
+            <ul class="ulSkills">
+              <li>html/css</li>
+              <li>JS (novice)</li>
+              <li>English - B2</li>
+            </ul>
+          </section>
+          <section id="code_link">
+            <h2>Code example</h2>
+            <p>Return the type of the sum of the two arguments</p>
+            <pre> function typeOfSum(a, b) {
+  return typeof (a + b);
+}</pre>
+          </section>
+          <section id="projects_link">
+            <h2>My projects</h2>
+            <a href="https://baz29.github.io/rsschool-cv/cv.md" target="_blank">My first project</a>
+            <p></p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div>
+          <a href="https://github.com/Baz29/" target="_blank" class="footer_l">My GitHub Page</a>
+        </div>
+        <div>2022</div>
+        <div> <a href="https://rs.school/js/" target="_blank" class="footer_l"> <img src="rs_school_js.svg"
+              alt="rs_school logo" width="86" height="32"> </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
