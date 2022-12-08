@@ -10,10 +10,12 @@
   background-color: black;
 }
 
-ul {
+.ul_nav {
   list-style: none;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  height: 40px;
 
 }
 
