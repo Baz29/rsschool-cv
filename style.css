@@ -146,3 +146,41 @@ h2 {
   height: 100%;
   width: 90%;
 }
+
+.education {
+  margin-top: 180px;
+}
+
+.h2_left {
+  margin: 0;
+}
+
+.edu_text,
+.myProj_text {
+  margin-top: 30px;
+}
+
+.myProj {
+  margin-top: 30px;
+}
+
+footer {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+
+.myGit,
+.rssLogo {
+  display: block;
+}
+
+.footerYear {
+  color: white;
+  font-size: 16px;
+}
