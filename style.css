@@ -5,7 +5,7 @@ body {
 .container {
   width: 1000px;
   margin: 15px auto;
-  height: 1000px;
+  min-height: 1000px;
   background-color: pink;
 }
 
@@ -84,7 +84,7 @@ h1 {
 
   background-color: white;
   width: 50%;
-  height: 500px;
+
 }
 
 .ul_left {
