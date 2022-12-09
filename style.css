@@ -28,7 +28,6 @@ body {
 a {
   color: white;
   text-decoration: none;
-
 }
 
 .li_nav {
@@ -36,7 +35,6 @@ a {
 }
 
 .black_block {
-
   margin-top: -16px;
   background-color: black;
 }
@@ -69,10 +67,8 @@ h1 {
   position: absolute;
   left: 760px;
   top: 200px;
-
-
-  width: 400px;
-  height: 400px;
+  width: 40%;
+  height: 40%;
 }
 
 .white_block {
