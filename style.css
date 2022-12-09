@@ -19,6 +19,8 @@
 
 }
 
+
+
 a {
   color: white;
   text-decoration: none;
@@ -27,8 +29,47 @@ a {
 
 li {
   list-style: none;
-
 }
+
+.black_block {
+
+  margin-top: -16px;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  margin-top: 0;
+  margin-left: 50px;
+  margin-bottom: 0;
+  padding-top: 40px;
+}
+
+.p_h1 {
+  color: white;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.aboutMe {
+  color: white;
+  margin-left: 50px;
+  margin-top: 150px;
+  width: 355px;
+}
+
+.photo {
+  position: absolute;
+  left: 800px;
+  top: 200px;
+
+  background-color: orange;
+  width: 400px;
+  height: 400px;
+}
+
 
 header {
   background-color: green;
