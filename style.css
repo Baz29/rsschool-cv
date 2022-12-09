@@ -25,8 +25,6 @@ body {
 
 }
 
-
-
 a {
   color: white;
   text-decoration: none;
@@ -185,4 +183,5 @@ footer {
 .footerYear {
   color: white;
   font-size: 16px;
+  font-weight: 700;
 }
