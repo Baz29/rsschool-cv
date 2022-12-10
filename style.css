@@ -1,1 +1,170 @@
+body {
+  font-family: 'Montserrat';
+  background-color: #cacaca;
+}
 
+.container {
+  margin: 15px auto;
+  width: 1000px;
+}
+
+nav {
+  display: block;
+  background-color: black;
+}
+
+.ul-navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.black-block {
+  position: relative;
+  margin-top: -16px;
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  margin-top: 0;
+  margin-left: 50px;
+  margin-bottom: 0;
+  padding-top: 40px;
+}
+
+p {
+  margin-left: 50px;
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.about-me {
+  color: white;
+  margin-left: 50px;
+  margin-top: 130px;
+  width: 355px;
+  padding-bottom: 40px;
+}
+
+.photo {
+  position: absolute;
+  left: 500px;
+  top: 150px;
+  width: 40%;
+  height: 40%;
+}
+
+.white-block {
+  display: flex;
+}
+
+.left-side {
+  width: 50%;
+  background-color: white;
+}
+
+.ul-left-side {
+  padding: 0;
+  margin-left: 50px;
+}
+
+h2 {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.li-left {
+  line-height: 40px;
+  margin-left: 16px;
+}
+
+.right-side {
+  width: 50%;
+  background-color: white;
+}
+
+.skillbar {
+  display: flex;
+  background-color: black;
+  width: 100px;
+  height: 8px;
+}
+
+.bar-left-html {
+  height: 100%;
+  width: 70%;
+}
+
+.bar-right-html {
+  background-color: #cacaca;
+  height: 100%;
+  width: 30%;
+}
+
+.bar-left-css {
+  height: 100%;
+  width: 40%;
+}
+
+.bar-right-css {
+  background-color: #cacaca;
+  height: 100%;
+  width: 60%;
+}
+
+.bar-left-js {
+  height: 100%;
+  width: 10%;
+}
+
+.bar-right-js {
+  background-color: #cacaca;
+  height: 100%;
+  width: 90%;
+}
+
+.education {
+  margin-top: 180px;
+}
+
+.h2-right-side {
+  margin: 0;
+}
+
+.education-text,
+.projects-text,
+.projects {
+  margin-top: 30px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 50px;
+  color: white;
+  background-color: black;
+}
+
+.github,
+.rssLogo {
+  display: block;
+}
+
+.footer-year {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
