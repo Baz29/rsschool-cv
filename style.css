@@ -1,28 +1,24 @@
-* {
-  font-family: 'Montserrat';
-}
-
 body {
+  font-family: 'Montserrat';
   background-color: #cacaca;
 }
 
 .container {
-  width: 1000px;
   margin: 15px auto;
+  width: 1000px;
 }
 
-.nav {
+nav {
   display: block;
   background-color: black;
 }
 
-.ul_nav {
-  list-style: none;
+.ul-navigation {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 40px;
-
+  list-style: none;
 }
 
 a {
@@ -30,11 +26,7 @@ a {
   text-decoration: none;
 }
 
-.li_nav {
-  list-style: none;
-}
-
-.black_block {
+.black-block {
   position: relative;
   margin-top: -16px;
   background-color: black;
@@ -49,14 +41,14 @@ h1 {
   padding-top: 40px;
 }
 
-.p_h1 {
-  color: white;
-  font-size: 20px;
+p {
   margin-left: 50px;
   margin-top: 10px;
+  color: white;
+  font-size: 20px;
 }
 
-.aboutMe {
+.about-me {
   color: white;
   margin-left: 50px;
   margin-top: 130px;
@@ -72,19 +64,16 @@ h1 {
   height: 40%;
 }
 
-.white_block {
+.white-block {
   display: flex;
-  background-color: green;
 }
 
-.left_side {
-
-  background-color: white;
+.left-side {
   width: 50%;
-
+  background-color: white;
 }
 
-.ul_left {
+.ul-left-side {
   padding: 0;
   margin-left: 50px;
 }
@@ -94,12 +83,12 @@ h2 {
   margin-left: 50px;
 }
 
-.li_left {
+.li-left {
   line-height: 40px;
   margin-left: 16px;
 }
 
-.right_side {
+.right-side {
   width: 50%;
   background-color: white;
 }
@@ -111,34 +100,34 @@ h2 {
   height: 8px;
 }
 
-.barLeft_html {
+.bar-left-html {
   height: 100%;
   width: 70%;
 }
 
-.barRight_html {
+.bar-right-html {
   background-color: #cacaca;
   height: 100%;
   width: 30%;
 }
 
-.barLeft_css {
+.bar-left-css {
   height: 100%;
   width: 40%;
 }
 
-.barRight_css {
+.bar-right-css {
   background-color: #cacaca;
   height: 100%;
   width: 60%;
 }
 
-.barLeft_js {
+.bar-left-js {
   height: 100%;
   width: 10%;
 }
 
-.barRight_js {
+.bar-right-js {
   background-color: #cacaca;
   height: 100%;
   width: 90%;
@@ -148,37 +137,34 @@ h2 {
   margin-top: 180px;
 }
 
-.h2_left {
+.h2-right-side {
   margin: 0;
 }
 
-.edu_text,
-.myProj_text {
-  margin-top: 30px;
-}
-
-.myProj {
+.education-text,
+.projects-text,
+.projects {
   margin-top: 30px;
 }
 
 footer {
-  padding-left: 50px;
-  padding-right: 50px;
   display: flex;
-  height: 50px;
   justify-content: space-between;
   align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 50px;
   color: white;
   background-color: black;
 }
 
-.myGit,
+.github,
 .rssLogo {
   display: block;
 }
 
-.footerYear {
-  color: white;
+.footer-year {
   font-size: 16px;
   font-weight: 700;
+  color: white;
 }
