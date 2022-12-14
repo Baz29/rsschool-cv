@@ -5,6 +5,15 @@
   background-color: #EDF2EC;
 }
 
-footer {
+header {
+  display: flex;
+  align-items: center;
   height: 134px;
+}
+
+.wrapper-header {
+  margin: 0 109px 0 111px;
+  width: 1220px;
+  height: 50px;
+  background-color: pink;
 }
