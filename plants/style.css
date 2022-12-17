@@ -80,14 +80,14 @@ header {
   height: 407px;
 }
 
-.about {
+.welcome-text {
   margin-right: 109px;
   margin-top: 98px;
   width: 549px;
   height: 340px;
 }
 
-.about__h1 {
+.welcome-text__h1 {
   margin: 0;
   font-family: 'Inter';
   font-style: normal;
@@ -97,11 +97,11 @@ header {
   color: #717171;
 }
 
-.about__h1 span {
+.welcome-text__h1 span {
   color: #499A18;
 }
 
-.about__text {
+.welcome-text p {
   margin-top: 42px;
   margin-bottom: 48px;
   font-family: 'Inter';
@@ -112,11 +112,51 @@ header {
   color: #636060;
 }
 
-.about__btn {
+.welcome-text__btn {
   width: 152px;
   height: 44px;
   border: 2px solid #E06733;
   border-radius: 10px;
   background: #EDF2EC;
+}
 
+.about {
+  display: flex;
+  justify-content: space-between;
+  height: 666px;
+}
+
+.about-text__h2 {
+  margin: 161px 0 0 109px;
+  width: 463px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+}
+
+.about-text__h2 span {
+  color: #E06733;
+}
+
+.about-text p {
+  margin: 40px 0 0 109px;
+  width: 605px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+}
+
+.about-houseplant {
+  margin: 93px 109px 94px 0;
+}
+
+.about-houseplant__img {
+  width: 464px;
+  height: 479px;
 }
