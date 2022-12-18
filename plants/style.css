@@ -160,3 +160,60 @@ header {
   width: 464px;
   height: 479px;
 }
+
+.service {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 109px 121px 109px;
+  height: 1300px;
+  background-color: #EDF2EC;
+}
+
+.service-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1007px;
+  height: 94px;
+}
+
+.service-navbar h2 {
+  margin: 0;
+  width: 306px;
+  height: 94px;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+}
+
+.service-navbar-btns {
+  display: flex;
+  justify-content: space-between;
+  width: 559px;
+  height: 50px;
+}
+
+.service-navbar-btns__btn {
+  width: 161px;
+  height: 50px;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  background: #EDF2EC;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #E06733;
+}
+
+.service-items {
+  width: 1222px;
+  height: 955px;
+  background-color: azure;
+}
