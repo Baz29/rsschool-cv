@@ -212,8 +212,24 @@ header {
   color: #E06733;
 }
 
-.service-items {
+.service-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 1222px;
   height: 955px;
-  background-color: azure;
+  background-color: #EDF2EC;
+}
+
+.service-wrapper-items {
+  display: flex;
+  justify-content: space-between;
+  width: 1222px;
+  height: 450px;
+}
+
+.service-item {
+  width: 330px;
+  height: 450px;
+  background-color: white;
 }
