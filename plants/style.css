@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .wrapper-header-welcome {
   margin: 0 auto;
   width: 1440px;
@@ -319,8 +323,49 @@ h3 {
 }
 
 .prices-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 441px;
   width: 449px;
   height: 200px;
+}
+
+.prices-right p {
+  margin-top: 50px;
+  margin-bottom: 43px;
+  width: 449px;
+  text-align: right;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.prices-right__btn {
+  padding: 10px 0;
+  width: 161px;
+  height: 50px;
+  margin: auto 0;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  background: white;
+  font-family: 'Inika';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #E06733;
+  cursor: pointer;
+}
+
+.prices-right img {
+  display: block;
+  margin-top: 39px;
+  width: 152px;
+  height: 175px;
 }
 
 .contacts {
