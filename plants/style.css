@@ -387,9 +387,8 @@ h3 {
 }
 
 .contacts-woman {
-  position: relative;
-  top: 53px;
-  left: 109px;
+  margin-top: 53px;
+  margin-left: 109px;
   width: 400px;
   height: 497px;
 }
@@ -406,9 +405,10 @@ h3 {
 
 .contacts-city {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 148px;
-  margin-left: 64px;
+  margin-top: 145px;
+  margin-left: 70px;
   width: 450px;
   height: 50px;
   background: #D6E7D2;
@@ -428,9 +428,16 @@ h3 {
 }
 
 .contacts-city__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 35px;
   width: 16px;
   height: 16px;
-  background-image: url(img/city_btn1.png);
+  border-radius: 50%;
+  background-color: #AEA1A1;
+  border: none;
+  cursor: pointer;
 }
 
 .footer {
