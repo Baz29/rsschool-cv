@@ -33,6 +33,7 @@ header {
 }
 
 .menu {
+
   margin-right: 109px;
   width: 452px;
   height: 50px;
@@ -40,7 +41,9 @@ header {
 
 .menu__ul {
   display: flex;
+  margin: 0;
   justify-content: space-between;
+
   padding: 0;
 }
 
@@ -117,11 +120,19 @@ header {
 }
 
 .welcome-text__btn {
-  width: 152px;
+  width: 158px;
   height: 44px;
   border: 2px solid #E06733;
   border-radius: 10px;
   background: #EDF2EC;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
 }
 
 .about {
@@ -294,7 +305,7 @@ h3 {
 }
 
 .prices-acordion {
-  margin-top: 70px;
+  margin-top: 62px;
   margin-left: 109px;
   width: 332px;
   height: 282px;
