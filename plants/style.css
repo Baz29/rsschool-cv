@@ -274,8 +274,53 @@ h3 {
 }
 
 .prices {
+  display: flex;
   height: 560px;
   background-color: #fff;
+}
+
+.prices-left h2 {
+  margin: 38px 0 0 109px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.prices-acordion {
+  margin-top: 70px;
+  margin-left: 109px;
+  width: 332px;
+  height: 282px;
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+}
+
+.prices-acordion__items {
+  display: flex;
+  align-items: center;
+  margin: 34px 41px;
+  width: 250px;
+  height: 50px;
+  background-color: #EDF2EC;
+  border-radius: 20px;
+}
+
+.prices-acordion__items p {
+  margin-left: 41px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.prices-right {
+  width: 449px;
+  height: 200px;
 }
 
 .contacts {
