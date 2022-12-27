@@ -222,6 +222,7 @@ header {
   font-size: 20px;
   line-height: 26px;
   color: #E06733;
+  cursor: pointer;
 }
 
 .service-wrapper {
@@ -313,6 +314,7 @@ h3 {
 .prices-acordion__items {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin: 32px 38px;
   width: 250px;
   height: 50px;
@@ -328,6 +330,19 @@ h3 {
   font-size: 20px;
   line-height: 20px;
   color: #000000;
+}
+
+.prices-acordion__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 35px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #D9D9D9;
+  border: none;
+  cursor: pointer;
 }
 
 .prices-right {
@@ -427,7 +442,7 @@ h3 {
   color: #717171;
 }
 
-.contacts-city__btn {
+.acordion__btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -449,7 +464,7 @@ h3 {
 
 .footer-left {
   margin-left: 109px;
-  word-spacing: 20px;
+  word-spacing: 15px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -459,6 +474,7 @@ h3 {
 }
 
 .footer-center {
+  padding-left: 20px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -470,6 +486,7 @@ h3 {
 .footer-links {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 188px;
   height: 50px;
   margin-right: 109px;
