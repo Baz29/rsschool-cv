@@ -2,7 +2,17 @@ body {
   margin: 0;
 }
 
-.wrapper-header-welcome {
+html {
+  scroll-behavior: smooth;
+}
+
+a:hover {
+  color: #499A18;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.wrapper {
   margin: 0 auto;
   width: 1440px;
   height: 666px;
@@ -129,6 +139,14 @@ header {
   text-align: center;
   color: #000000;
   cursor: pointer;
+}
+
+.welcome-text__btn:hover,
+.service-navbar-btns__btn:hover,
+.prices-right__btn:hover {
+  background-color: #E06733;
+  color: white;
+  transition: 0.5s;
 }
 
 .about {
@@ -473,6 +491,16 @@ h3 {
   color: #000000;
 }
 
+.footer-left__a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  text-decoration: none;
+}
+
 .footer-center {
   padding-left: 20px;
   font-family: 'Inter';
@@ -481,6 +509,7 @@ h3 {
   font-size: 20px;
   line-height: 50px;
   color: #000000;
+  text-decoration: none;
 }
 
 .footer-links {
